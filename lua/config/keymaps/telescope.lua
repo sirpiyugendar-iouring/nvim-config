@@ -2,7 +2,6 @@ local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', function ()
     builtin.find_files(
     {
-        cwd = vim.fn.expand('%:p:h'),
     }
     )
 end, { silent = true })

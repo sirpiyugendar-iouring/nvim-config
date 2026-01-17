@@ -10,6 +10,7 @@ o.termguicolors = true
 o.wrap = false
 o.tabstop = 4
 o.shiftwidth = 4
+o.numberwidth=1
 o.backup = false
 o.writebackup = false
 o.signcolumn = "yes"
@@ -19,6 +20,8 @@ o.filetype = "on"
 o.ignorecase = true
 o.list = true
 o.listchars = "space:\\u2022,tab:\\u21dc\\u2053\\u21dd,eol:\\u2937"
+
+-- let @c="<80>kb[ ] ^["
 
 
 -- make nvim and os clipboard play nicely with each other
